@@ -5,7 +5,41 @@
 ### 2D Vector
 ![image](https://github.com/rajashtani/myGPT/assets/71159892/b56450d3-f65f-4f88-acaa-1aa178e858d0)
 
-# N-D Vector
+### N-D Vector
 ![image](https://github.com/rajashtani/myGPT/assets/71159892/8c9d6ee3-6da3-46ed-84b7-1640cffb474f)
 
 ![image](https://github.com/rajashtani/myGPT/assets/71159892/62671cfc-6b85-4a15-b219-b2f8d1e3eda4)
+
+## Word Embedding
+
+* Text Representation in n-dimensional space
+* Similar meanings or occurring in similar contexts are closer to each other in the high-dimensional space aka distributed word representations 
+depends on factors such as the size of the training dataset, the computational resources available
+* NN Models to generate distributed word representations eg Word2vec, GloVe, BERT
+* Vector Database Store
+  * Pinecone
+  * Faiss
+  * Weaviate
+  * Chorma DB
+
+## Traning your model
+
+![image](https://github.com/rajashtani/myGPT/assets/71159892/478479c6-0e84-442f-b22c-23dbdc4c799c)
+https://www.technologyreview.com/2019/06/06/239031/training-a-single-ai-model-can-emit-as-much-carbon-as-five-cars-in-their-lifetimes
+
+
+## What do you need 
+* Python 
+* Open Source distribution
+  * Huggingface Wordembedding 
+  * Langchain
+* Vector Database 
+  * Chorma DB
+* Open Source LLM Models from GPT4ALL
+  * LLama 
+  * GPT-J
+  * MPT
+* Streamlit for rapid UI devlopment
+
+And your documents 
+
