@@ -31,10 +31,10 @@ https://www.technologyreview.com/2019/06/06/239031/training-a-single-ai-model-ca
 ## What do you need 
 * Python 
 * Open Source distribution
-  * Huggingface Wordembedding 
+  * Huggingface Word embedding 
   * Langchain
 * Vector Database 
-  * Chorma DB
+  * Chroma DB
 * Open Source LLM Models from GPT4ALL
   * LLama 
   * GPT-J
