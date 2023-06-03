@@ -20,7 +20,7 @@ depends on factors such as the size of the training dataset, the computational r
   * Pinecone
   * Faiss
   * Weaviate
-  * Chorma DB
+  * Chroma DB
 
 ## Traning your model
 
