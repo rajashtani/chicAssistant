@@ -1,3 +1,4 @@
+## TL;DR
 ## Word Representation 
 
 ![image](https://github.com/rajashtani/myGPT/assets/71159892/3d28fe23-ec28-4de3-95e2-e11a25fb0c3b)
