@@ -12,7 +12,8 @@ The demo app uses
 
 ***Prerequisites***
 + PyTorch
-+ 
++ sentence_transformers InstructorEmbedding faiss-cpu
++ streamlit
 
 ***Steps to run the program***
 

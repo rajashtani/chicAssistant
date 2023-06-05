@@ -45,6 +45,7 @@ def parse_arguments():
 @st.cache_resource
 def load_model():
     device = "mps" if torch.backends.mps.is_available() else "cpu"
+    # device = "gpu" if torch.cuda.is_available() else "cpu"
     device = torch.device(device)
     print(f"Using device: {device}")
     #embeddings = HuggingFaceEmbeddings(model_name=embeddings_model_name, model_kwargs={"device": device})
