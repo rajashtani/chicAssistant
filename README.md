@@ -56,10 +56,13 @@ depends on factors such as the size of the training dataset, the computational r
   * BERT (Google)
   * BART (Facebook)
 
-### Traning models
+## Traning models
 
-It is expensive and enviornment unfriendly
+Training LLL model requires large dataset and compute resource. 
 
+
+These models are costly to train and develop, both financially, due to the cost of hardware and electricity or cloud compute time, and environmentally, due to the carbon footprint required to fuel modern tensor processing hardware.
+As MIT Technology Review training just one AI model can emit more than 626,00 pounds carbon dioxide.
 <img width="9050" alt="model" src="https://github.com/rajashtani/myGPT/assets/71159892/478479c6-0e84-442f-b22c-23dbdc4c799c.png" >
 
 https://www.technologyreview.com/2019/06/06/239031/training-a-single-ai-model-can-emit-as-much-carbon-as-five-cars-in-their-lifetimes
