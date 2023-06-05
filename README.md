@@ -49,6 +49,12 @@ depends on factors such as the size of the training dataset, the computational r
   * Weaviate
   * Chroma DB
 
+### LLM
+
+* GPT (OpenAI)
+* BERT (Google)
+* BART (Facebook)
+
 ## Traning your model
 
 It is expensive and enviornment unfriendly
