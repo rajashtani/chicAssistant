@@ -1,5 +1,24 @@
 ## TL;DR
+The demo app uses
+* Huggingface Word embedding(s) 
+* Langchain
+* Chroma DB Vector Database
+* Open Source LLM Models from GPT4ALL
+  * LLama 
+  * GPT-J
+  * MPT
+* Streamlit
+* runs on mac pro
 
+steps to run the program
+
++ install dependencies 
+`pip3 install -r requirements.txt`
++ copy relevant documents in documents folder
++ verify gpu avaliblity in your m/c (look for device variable in python scripts)
++ run prepateDB.py
++ run 
+`streamlit run app.py`
 ## 
 
 ### One hot encoding 
@@ -56,7 +75,7 @@ depends on factors such as the size of the training dataset, the computational r
   * BERT (Google)
   * BART (Facebook)
 
-## Traning models
+**Traning models**
 
 Training LLL model requires large dataset and compute resource. 
 
@@ -79,7 +98,7 @@ https://www.technologyreview.com/2019/06/06/239031/training-a-single-ai-model-ca
   * GPT-J
   * MPT
 * Streamlit
-* run on mac pro
+* runs on mac pro
 
 And lots of relevant documents 
 
