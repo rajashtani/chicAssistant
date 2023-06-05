@@ -60,6 +60,7 @@ depends on factors such as the size of the training dataset, the computational r
 
 Training LLL model requires large dataset and compute resource. 
 
+<img width="800" alt="Training" src="https://github.com/rajashtani/chicAssistant/assets/71159892/2504cc21-b711-4503-9160-b1c60a64478e" >
 
 These models are costly to train and develop, both financially, due to the cost of hardware and electricity or cloud compute time, and environmentally, due to the carbon footprint required to fuel modern tensor processing hardware.
 As MIT Technology Review training just one AI model can emit more than 626,00 pounds carbon dioxide.
