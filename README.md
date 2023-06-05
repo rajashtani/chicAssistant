@@ -1,10 +1,6 @@
 ## TL;DR
 
-## Large Language Model (LLM)
-
-+ Takes text inputs and predicts next words
-+ Q&A - Use existing knowledge base to provide contextual response
-+ Simulates Human like response
+## 
 
 ### One hot encoding 
 
@@ -24,9 +20,9 @@ Word vectors place words with similar meaning and/or relevance closer togetner i
 
 One can determine the relevance of two words by computing the euclidean vector distance between thier respective vectors.
 
-### High Dimension Vector
+**High Dimension Vector**
 
-Words used in a similar context can be labeled to create multi dimension vector
+Words used in a similar context are be labeled to create multi dimension vector
 
 <img width="400" alt="nDVector" src="https://github.com/rajashtani/myGPT/assets/71159892/8c9d6ee3-6da3-46ed-84b7-1640cffb474f.png" >
 
@@ -50,13 +46,17 @@ depends on factors such as the size of the training dataset, the computational r
   * Weaviate
   * Chroma DB
 
-### LLM
+### Large Language Model (LLM)
 
-* GPT (OpenAI)
-* BERT (Google)
-* BART (Facebook)
++ Takes text inputs and predicts next words
++ Q&A - Use existing knowledge base to provide contextual response
++ Simulates Human like response
++ Populor models
+  * GPT (OpenAI)
+  * BERT (Google)
+  * BART (Facebook)
 
-## Traning your model
+### Traning models
 
 It is expensive and enviornment unfriendly
 
