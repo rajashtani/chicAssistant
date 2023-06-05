@@ -8,14 +8,18 @@ The demo app uses
   * GPT-J
   * MPT
 * Streamlit
-* runs on mac pro
+* default run is set for mac m2 pro and non GPU mac m/cs (look for device variable in python scripts)
 
-steps to run the program
+***Prerequisites***
++ PyTorch
++ 
+
+***Steps to run the program***
 
 + install dependencies 
-`pip3 install -r requirements.txt`
+`pip3 install -r requirements.txt `
 + copy relevant documents in documents folder
-+ verify gpu avaliblity in your m/c (look for device variable in python scripts)
++ verify gpu avaliblity in your m/c 
 + run prepateDB.py
 + run 
 `streamlit run app.py`
