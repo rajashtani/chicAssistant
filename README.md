@@ -14,11 +14,12 @@ One hot vector can be used to represent words in numerical values e.g. Corpus of
 
 The number of dimensions in the one hot vector is equal to the number of unique words in the corpus. 
 
-One hot endoing doesn't get words any inherent meaning. It only tells the **Artificial Neural Network** that this unique word exists without telling it what it means not its relevance to other words. 
+One hot endcoing doesn't give words any inherent meaning. It only tells the **Artificial Neural Network** that this unique word exists without telling it what it means not its relevance to other words. 
 
-### Vector Visualization
+### Word Vectors 
 
-Word vectors place words with similar meaning and/or relevance closer togetner in the vector space.
+Word vectors place words with similar meaning and/or relevance closer togetner in the vector space e.g. in our corpus precious metals gold and silver can be placed closer in two dimension vector 
+
 <img width="400" alt="2DVector" src="https://github.com/rajashtani/myGPT/assets/71159892/b56450d3-f65f-4f88-acaa-1aa178e858d0.png" >
 
 One can determine the relevance of two words by computing the euclidean vector distance between thier respective vectors.
@@ -29,7 +30,7 @@ Words used in a similar context can be labeled to create multi dimension vector
 
 <img width="400" alt="nDVector" src="https://github.com/rajashtani/myGPT/assets/71159892/8c9d6ee3-6da3-46ed-84b7-1640cffb474f.png" >
 
-#### 3D Plot
+**3 Dimension Vector Visualization**
 
 <img width="400" alt="nDVector" src="https://github.com/rajashtani/myGPT/assets/71159892/62671cfc-6b85-4a15-b219-b2f8d1e3eda4.png" >
 
