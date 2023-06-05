@@ -1,14 +1,6 @@
 ## TL;DR
-The demo app uses
-* Huggingface Word embedding(s) 
-* Langchain
-* Chroma DB Vector Database
-* Open Source LLM Models from GPT4ALL
-  * LLama 
-  * GPT-J
-  * MPT
-* Streamlit
-* default run is set for mac m2 pro and non GPU mac m/cs (look for device variable in python scripts)
+
+Default run is set for mac m2 pro and non GPU mac m/cs (look for device variable in python scripts)
 
 ***Prerequisites***
 + PyTorch
@@ -21,7 +13,7 @@ The demo app uses
 `pip3 install -r requirements.txt `
 + copy relevant documents in documents folder
 + verify gpu avaliblity in your m/c 
-+ run prepateDB.py
++ run prepateDB.py. This step might take 5 to 10 minutes depending on your m/c configration.
 + run 
 `streamlit run app.py`
 ## 
