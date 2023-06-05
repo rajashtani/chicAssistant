@@ -78,15 +78,20 @@ Training LLL model requires large dataset and compute resource.
 
 <img width="800" alt="Training" src="https://github.com/rajashtani/chicAssistant/assets/71159892/2504cc21-b711-4503-9160-b1c60a64478e" >
 
-These models are costly to train and develop, both financially, due to the cost of hardware and electricity or cloud compute time, and environmentally, due to the carbon footprint required to fuel modern tensor processing hardware.
-As MIT Technology Review training just one AI model can emit more than 626,00 pounds carbon dioxide.
+These models are costly to train and develop, both financially, due to the cost of hardware and electricity or cloud compute time, and environmentally, due to the carbon footprint required to fuel modern tensor processing hardware. Training just one AI model can emit more than 626,00 pounds carbon dioxide.
 <img width="9050" alt="model" src="https://github.com/rajashtani/myGPT/assets/71159892/478479c6-0e84-442f-b22c-23dbdc4c799c.png" >
 
 https://www.technologyreview.com/2019/06/06/239031/training-a-single-ai-model-can-emit-as-much-carbon-as-five-cars-in-their-lifetimes
 
+For most use cases it is better to fine tune pre-trained models
++ Use Domain specific Base model  
++ prepare a large dataset from internal knowledge bank e.g. code, sharepoint
++ Use Training APIs
++ Build pipeline to fine-tune model periodically 
 
-## App features
+## App
 
+This app is not traning base model but provides human like response for user queries on personal documents. Here are the key components / components of the app
 * Huggingface Word embedding(s) 
 * Langchain
 * Chroma DB Vector Database
@@ -99,3 +104,5 @@ https://www.technologyreview.com/2019/06/06/239031/training-a-single-ai-model-ca
 
 And lots of relevant documents 
 
+
+Flow diagram(s)
