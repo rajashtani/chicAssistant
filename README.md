@@ -105,7 +105,8 @@ This app is not traning base model but provides human like response for user que
 And lots of relevant documents 
 
 **Step 1** : Prepare Vector Database from Dataset
-<img width="1000" alt="nDVector" src="https://github.com/rajashtani/chicAssistant/assets/71159892/258dee98-0c42-47af-a40e-cc63e5e3523f" >
+<img width="1000" alt="dbprep" src="https://github.com/rajashtani/chicAssistant/assets/71159892/258dee98-0c42-47af-a40e-cc63e5e3523f" >
 
+**Step 2**: Process user Query 
 
-Flow diagram(s)
+<img width="600" alt="userquery" src="https://github.com/rajashtani/chicAssistant/assets/71159892/43ea2d28-6f05-426c-9084-c68292606cf6" >
